@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { MessageEmbed } = require("discord.js");
 const { stripIndents } = require("common-tags");
 
-const { site_owner, token, buttonId, formPage } = require('./config.json');
+const { site_owner, token, formPage } = require('./config.json');
 
 const client = new Discord.Client();
 
@@ -41,7 +41,7 @@ app.post('/send', (req, res) => {
                     **Email** \`\`\`${req.body.email}\`\`\`
                     **Message:** \`\`\`${req.body.message}\`\`\``);
     client.users.cache.get(site_owner).send(embed);
-    res.redirect("/contact");
+    res.redirect("/"+formPage);
 });
 
 app.listen(4200, () => {
