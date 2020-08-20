@@ -45,7 +45,7 @@ app.post('/send', (req, res) => {
 });
 
 app.listen(4200, () => {
-    console.log(`Server running on port 4201`);
+    console.log(`Server running on port 4200`);
 });
 
 client.login(token);
