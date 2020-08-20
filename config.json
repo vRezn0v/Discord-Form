@@ -1,4 +1,5 @@
 {
-    "site_owner" : "[REDACTED]", //PUT YOUR DISCORD USER ID HERE
-    "token": "[REDACTED]"//PUT DISCORD BOT TOKEN HERE
+    "site_owner" : "[PUT YOUR DISCORD USER ID HERE]",
+    "token": "[PUT DISCORD BOT TOKEN HERE]",
+    "formPage": "[PATH TO FORM]"
     }
