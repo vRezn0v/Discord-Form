@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const { MessageEmbed } = require("discord.js");
 const { stripIndents } = require("common-tags");
 
-const { site_owner, token, buttonId, formPage } = require('./config.json');
+const { site_owner, token, formPage } = require('./config.json');
 
 const client = new Discord.Client();
 
